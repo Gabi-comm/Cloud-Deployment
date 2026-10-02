@@ -3,11 +3,11 @@
   --paper: #f6f0e4;
   --latte: #d9c4a3;
   --caramel: #bd8550;
-  --caramel-dark: #7f5226;
-  --caramel-deep: #9a6534;
-  --espresso: #5c3a21;
-  --roast: #3a2414;
-  --ink: #2b1b0f;
+  --caramel-dark: #6a4320;
+  --caramel-deep: #84552a;
+  --espresso: #3d2314;
+  --roast: #22140a;
+  --ink: #170d05;
   --white: #fffaf2;
 
   --font-display: "Cormorant Garamond", Georgia, serif;
@@ -15,7 +15,7 @@
   --font-body: "Jost", "Segoe UI", sans-serif;
 
   --radius: 14px;
-  --shadow: 0 14px 34px rgba(58, 36, 20, 0.14);
+  --shadow: 0 14px 34px rgba(34, 20, 10, 0.14);
   --header-h: 84px;
 }
 
@@ -119,7 +119,7 @@ figure {
 }
 
 .section-sub {
-  color: #6b5442;
+  color: #55402f;
 }
 
 .price,
@@ -182,8 +182,8 @@ figure {
   top: 0;
   z-index: 100;
   background-color: var(--cream);
-  border-bottom: 1px solid rgba(92, 58, 33, 0.18);
-  box-shadow: 0 2px 12px rgba(58, 36, 20, 0.06);
+  border-bottom: 1px solid rgba(61, 35, 20, 0.18);
+  box-shadow: 0 2px 12px rgba(34, 20, 10, 0.06);
 }
 
 .header-inner {
@@ -259,7 +259,7 @@ figure {
   color: var(--cream);
   background-color: var(--roast);
   background-image:
-    linear-gradient(100deg, rgba(43, 27, 15, 0.92) 0%, rgba(43, 27, 15, 0.7) 45%, rgba(43, 27, 15, 0.15) 100%),
+    linear-gradient(100deg, rgba(23, 13, 5, 0.92) 0%, rgba(23, 13, 5, 0.7) 45%, rgba(23, 13, 5, 0.15) 100%),
     url("Assets/images4.jpg");
   background-size: cover;
   background-position: center right;
@@ -339,7 +339,7 @@ figure {
 }
 
 .about-text p {
-  color: #4d3a2b;
+  color: #3a2a1d;
 }
 
 .about-stats {
@@ -376,7 +376,7 @@ figure {
 
 .featured {
   background-color: var(--cream);
-  background-image: radial-gradient(rgba(92, 58, 33, 0.12) 1.2px, transparent 1.2px);
+  background-image: radial-gradient(rgba(61, 35, 20, 0.12) 1.2px, transparent 1.2px);
   background-size: 22px 22px;
 }
 
@@ -391,11 +391,11 @@ figure {
   flex-direction: column;
   padding: 34px 26px 28px;
   background-color: var(--white);
-  border: 1px solid rgba(92, 58, 33, 0.25);
+  border: 1px solid rgba(61, 35, 20, 0.25);
   border-radius: var(--radius);
-  outline: 1px dashed rgba(92, 58, 33, 0.3);
+  outline: 1px dashed rgba(61, 35, 20, 0.3);
   outline-offset: -9px;
-  box-shadow: 0 6px 18px rgba(58, 36, 20, 0.07);
+  box-shadow: 0 6px 18px rgba(34, 20, 10, 0.07);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -427,7 +427,7 @@ figure {
 
 .drink-card p {
   font-size: 0.97rem;
-  color: #5e4938;
+  color: #4a3626;
 }
 
 .drink-card .price {
@@ -435,7 +435,7 @@ figure {
   color: var(--caramel-dark);
   margin-top: auto;
   padding-top: 14px;
-  border-top: 1px dashed rgba(92, 58, 33, 0.3);
+  border-top: 1px dashed rgba(61, 35, 20, 0.3);
 }
 
 .bestsellers {
@@ -546,7 +546,7 @@ figure {
   background-color: var(--cream);
   border: 2px solid var(--espresso);
   border-radius: var(--radius);
-  outline: 1px dashed rgba(92, 58, 33, 0.5);
+  outline: 1px dashed rgba(61, 35, 20, 0.5);
   outline-offset: -10px;
 }
 
@@ -589,7 +589,7 @@ figure {
 .menu-list li span:first-child::after {
   content: "";
   flex: 1;
-  border-bottom: 1px dotted rgba(92, 58, 33, 0.5);
+  border-bottom: 1px dotted rgba(61, 35, 20, 0.5);
 }
 
 .menu-list li span:last-child {
@@ -656,11 +656,11 @@ figure {
 .info-card {
   padding: 34px 30px;
   background-color: var(--white);
-  border: 1px solid rgba(92, 58, 33, 0.25);
+  border: 1px solid rgba(61, 35, 20, 0.25);
   border-radius: var(--radius);
-  outline: 1px dashed rgba(92, 58, 33, 0.3);
+  outline: 1px dashed rgba(61, 35, 20, 0.3);
   outline-offset: -9px;
-  box-shadow: 0 6px 18px rgba(58, 36, 20, 0.07);
+  box-shadow: 0 6px 18px rgba(34, 20, 10, 0.07);
 }
 
 .info-card h3 {
@@ -682,7 +682,7 @@ figure {
   gap: 12px;
   padding: 10px 0;
   font-size: 0.95rem;
-  border-bottom: 1px dashed rgba(92, 58, 33, 0.25);
+  border-bottom: 1px dashed rgba(61, 35, 20, 0.25);
 }
 
 .hours li:last-child {
@@ -702,7 +702,7 @@ address {
 
 .muted {
   font-size: 0.92rem;
-  color: #7a6350;
+  color: #624d3c;
 }
 
 .contact-list li {
