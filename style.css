@@ -1,16 +1,11 @@
-/* =========================================================
-   1Shot! Coffee Shop — stylesheet
-   Palette pulled from the logo: cream, espresso brown, caramel
-   ========================================================= */
-
 :root {
-  --cream: #eadfca;          /* logo background */
+  --cream: #eadfca;
   --paper: #f6f0e4;
   --latte: #d9c4a3;
-  --caramel: #bd8550;        /* coffee in the cup */
+  --caramel: #bd8550;
   --caramel-dark: #7f5226;
-  --caramel-deep: #9a6534;     /* button fill, AA with white text */
-  --espresso: #5c3a21;       /* logo wordmark */
+  --caramel-deep: #9a6534;
+  --espresso: #5c3a21;
   --roast: #3a2414;
   --ink: #2b1b0f;
   --white: #fffaf2;
@@ -24,7 +19,6 @@
   --header-h: 84px;
 }
 
-/* ---------- Base ---------- */
 *,
 *::before,
 *::after {
@@ -132,7 +126,7 @@ figure {
 .about-stats strong,
 .drink-num,
 .bestseller-list li::before {
-  font-variant-numeric: lining-nums; /* Cormorant defaults to old-style figures */
+  font-variant-numeric: lining-nums;
 }
 
 .price {
@@ -143,7 +137,6 @@ figure {
   margin: 0;
 }
 
-/* ---------- Buttons ---------- */
 .btn {
   display: inline-block;
   padding: 14px 32px;
@@ -184,7 +177,6 @@ figure {
   color: var(--espresso);
 }
 
-/* ---------- Header & Navigation ---------- */
 .site-header {
   position: sticky;
   top: 0;
@@ -202,7 +194,6 @@ figure {
   min-height: var(--header-h);
 }
 
-/* the logo PNG has generous padding; crop it to the mark + wordmark */
 .brand {
   display: block;
   width: 200px;
@@ -258,7 +249,6 @@ figure {
   color: var(--cream);
 }
 
-/* ---------- Hero ---------- */
 .hero {
   position: relative;
   display: flex;
@@ -312,7 +302,6 @@ figure {
   gap: 16px;
 }
 
-/* ---------- About ---------- */
 .about {
   background-color: var(--paper);
 }
@@ -337,7 +326,6 @@ figure {
   box-shadow: var(--shadow);
 }
 
-/* round logo badge overlapping the photo, like a cup on a saucer */
 .about-img-small {
   position: absolute;
   right: -24px;
@@ -386,10 +374,8 @@ figure {
   color: var(--caramel-dark);
 }
 
-/* ---------- Featured Drinks ---------- */
 .featured {
   background-color: var(--cream);
-  /* dotted ring motif from the logo */
   background-image: radial-gradient(rgba(92, 58, 33, 0.12) 1.2px, transparent 1.2px);
   background-size: 22px 22px;
 }
@@ -452,7 +438,6 @@ figure {
   border-top: 1px dashed rgba(92, 58, 33, 0.3);
 }
 
-/* ---------- Best Sellers ---------- */
 .bestsellers {
   background-color: var(--roast);
   color: var(--cream);
@@ -539,7 +524,6 @@ figure {
   color: var(--latte);
 }
 
-/* ---------- Menu ---------- */
 .menu {
   background-color: var(--paper);
 }
@@ -595,7 +579,6 @@ figure {
   font-size: 0.98rem;
 }
 
-/* dotted leader between item and price */
 .menu-list li span:first-child {
   flex: 1;
   display: flex;
@@ -631,7 +614,6 @@ figure {
   color: var(--espresso);
 }
 
-/* ---------- Gallery ---------- */
 .gallery {
   background-color: var(--cream);
 }
@@ -661,7 +643,6 @@ figure {
   color: var(--caramel-dark);
 }
 
-/* ---------- Contact ---------- */
 .contact {
   background-color: var(--paper);
 }
@@ -777,7 +758,6 @@ address {
   color: var(--cream);
 }
 
-/* ---------- Footer ---------- */
 .site-footer {
   padding: 64px 0 32px;
   text-align: center;
@@ -846,7 +826,6 @@ address {
   margin: 0;
 }
 
-/* ---------- Responsive ---------- */
 @media (max-width: 1024px) {
   .drink-grid {
     grid-template-columns: repeat(2, 1fr);
